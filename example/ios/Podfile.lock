@@ -1,0 +1,75 @@
+PODS:
+  - ABUAdBaiduAdapter (4.87.0):
+    - Ads-Mediation-CN
+  - ABUAdCsjAdapter (4.5.1.6.0):
+    - Ads-Mediation-CN
+  - Ads-CN (4.5.1.6):
+    - Ads-CN/BUAdSDK (= 4.5.1.6)
+  - Ads-CN/BUAdSDK (4.5.1.6):
+    - Ads-CN/Domestic
+  - Ads-CN/BUFoundation (4.5.1.6):
+    - BURelyFoundation (= 0.0.1.58)
+  - Ads-CN/CSJAdSDK (4.5.1.6):
+    - Ads-CN/BUFoundation
+  - Ads-CN/Domestic (4.5.1.6):
+    - Ads-CN/BUFoundation
+    - Ads-CN/CSJAdSDK
+  - Ads-Mediation-CN (3.5.0.0):
+    - BURelyFoundation
+  - BaiduMobAdSDK (4.87)
+  - BURelyFoundation (0.0.1.58):
+    - BURelyFoundation/HM (= 0.0.1.58)
+    - BURelyFoundation/NETWork (= 0.0.1.58)
+  - BURelyFoundation/HM (0.0.1.58)
+  - BURelyFoundation/NETWork (0.0.1.58)
+  - Flutter (1.0.0)
+  - gromore_ad (0.0.1):
+    - ABUAdBaiduAdapter
+    - ABUAdCsjAdapter
+    - Ads-CN (= 4.5.1.6)
+    - Ads-Mediation-CN
+    - BaiduMobAdSDK (= 4.87)
+    - Flutter
+    - SVProgressHUD
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - ABUAdBaiduAdapter (from `SDKs/ABUAdBaiduAdapter/`)
+  - ABUAdCsjAdapter (from `SDKs/ABUAdCsjAdapter/`)
+  - Ads-Mediation-CN (from `SDKs/Ads-Mediation-CN/`)
+  - Flutter (from `Flutter`)
+  - gromore_ad (from `.symlinks/plugins/gromore_ad/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Ads-CN
+    - BaiduMobAdSDK
+    - BURelyFoundation
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  ABUAdBaiduAdapter:
+    :path: SDKs/ABUAdBaiduAdapter/
+  ABUAdCsjAdapter:
+    :path: SDKs/ABUAdCsjAdapter/
+  Ads-Mediation-CN:
+    :path: SDKs/Ads-Mediation-CN/
+  Flutter:
+    :path: Flutter
+  gromore_ad:
+    :path: ".symlinks/plugins/gromore_ad/ios"
+
+SPEC CHECKSUMS:
+  ABUAdBaiduAdapter: 3fe1881dc1c338efe6e6deadc489b988f7edee9e
+  ABUAdCsjAdapter: 6bc98c70b9737beb079127b22b48c8d98a6a16ff
+  Ads-CN: 5563d7a0ed3f99fd47d421fcb48e70688efedd55
+  Ads-Mediation-CN: 5b63a87234497f9330d968e516d65e8e8d6efb94
+  BaiduMobAdSDK: 618ea4c41d9206c3e27ad95a2d52e5cba9dd3cae
+  BURelyFoundation: f529322f9e93cf8cc0b4539e447aff77a8ff34de
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  gromore_ad: 1bf2adc7924916fa8e3419c7e341527e5026329e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 191961622c52991190a3349fb5221e6aa825c645
+
+COCOAPODS: 1.10.2

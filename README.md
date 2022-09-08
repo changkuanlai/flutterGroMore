@@ -6,7 +6,7 @@
      先跑example先对应配置.
      插件只封装了开屏、banner、激励、全屏、模板信息流,且只用到穿山甲广告,需要配置其他广告请先看穿山甲逛网.
      https://www.csjplatform.com/union/media/union/download?doc_sort=mediation
-     
+     因需求没用到其他的广告插件所以没配,有需要后续在更.
 
 This project is a starting point for a Flutter
 [plug-in package](https://flutter.dev/developing-packages/),
